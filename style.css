@@ -24,13 +24,13 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: sticky;
+  /*otázka 6*/
   top: 0;
 }
 
 /* Style the navigation bar links */
 .navbar a {
-  float: left;
+  float: right; /*otázka 7*/
   display: block;
   color: white;
   text-align: center;
@@ -40,7 +40,7 @@ body {
 
 /* Right-aligned link */
 .navbar a.right {
-  float: right;
+  float: left; /*otázka 7*/
 }
 
 /* Change color on hover */
@@ -63,7 +63,7 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 30%;
+  flex: 25%; /*otázka 8*/
   background-color: darkblue; /*otázka 4*/
   color: lightgray; /*otázka 4*/
   padding: 20px;
@@ -71,7 +71,7 @@ body {
 
 /* Main column */
 .main {   
-  flex: 70%;
+  flex: 75%; /*otázka 8*/
   background-color: white;
   padding: 20px;
 }
@@ -91,10 +91,10 @@ body {
 
 /* Basic styles for the post */
 .post {
-  margin-bottom: 20px;
+  margin-bottom: 100px; /*otázka 9*/
   padding: 20px;
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid red;
 }
 
 /* Styles for the post heading */
