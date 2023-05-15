@@ -94,7 +94,7 @@ body {
   margin-bottom: 100px; /*otázka 9*/
   padding: 20px;
   background-color: #fff;
-  border: 1px solid red;
+  border: 1px solid red; /*otázka 10*/
 }
 
 /* Styles for the post heading */
